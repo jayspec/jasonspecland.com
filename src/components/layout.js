@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import Helmet from "react-helmet"
 
 import Header from "./header"
-import "./layout.css"
+import Navigation from "./navigation"
+import "./hemmingway.css"
+import "./hemmingway-additional.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -19,21 +22,19 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            description
           }
         }
       }
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
+        <Helmet>
+          <link rel="stylesheet" id="hemingway_googleFonts-css" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%2C400italic%2C700italic%7CRaleway%3A700%2C400" type="text/css" media="all"></link>
+        </Helmet>
+        <div className="big-wrapper">
+          <Header siteMetadata={data.site.siteMetadata} />
+          <Navigation />
           <main>{children}</main>
           <footer>
             © {new Date().getFullYear()}, Built with

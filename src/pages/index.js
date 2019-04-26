@@ -1,21 +1,50 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import PostSummaryCollection from "../components/postSummaryCollection"
+import SidebarImage from "../components/sidebarImage"
+import SocialMedia from "../components/socialMedia";
 
-const IndexPage = () => (
+const IndexPage = ({data}) => {
+  const posts = data.allMarkdownRemark.edges // data.markdownRemark holds our post data
+  return (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="Home" keywords={[`azure`, `technology`, `comedy`, `improv`]} />
+    <div className="wrapper section-inner">
+      <div className="content left">
+        <PostSummaryCollection posts={posts} />
+      </div>
+      <i>
+        <i>
+          <div className="sidebar right" role="complementary">
+            <SidebarImage />
+            <SocialMedia />
+          </div>
+          <div className="clear"></div>
+        </i>
+      </i>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+  </Layout>)
+}
 
 export default IndexPage
+
+export const postQuery = graphql`
+{
+	allMarkdownRemark(limit: 10, sort: { order: DESC, fields: [frontmatter___date] } ) {
+    edges {
+      node {
+        id
+        html
+        frontmatter {
+          title
+          permalink
+          date(formatString: "MMMM DD, YYYY")
+        }
+      }
+    }
+  }
+}`
+

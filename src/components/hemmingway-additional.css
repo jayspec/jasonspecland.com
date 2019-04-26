@@ -1,0 +1,8 @@
+.header {
+    background-image: url('../images/cropped-queensboro-bridge-wallpaper-3.jpg')
+}
+
+.widget_wpcom_social_media_icons_widget li {
+    display: inline;
+    margin-right: .5em;
+}

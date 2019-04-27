@@ -1,12 +1,12 @@
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const SidebarImage = () => (
     <div className="widget widget_media_image">
         <div className="widget-content">
             <h3 className="widget-title">About Me</h3>
-            <a href="/">
+            <Link to="/about">
                 <StaticQuery
                     query={graphql`
                     query {
@@ -21,7 +21,7 @@ const SidebarImage = () => (
                     `}
                     render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
                 />
-            </a>
+            </Link>
         </div>
         <div className="clear"></div>
     </div>

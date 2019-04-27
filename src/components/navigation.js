@@ -1,13 +1,34 @@
 import React from "react"
+import {StaticQuery, Link, graphql} from "gatsby"
 
 const Navigation = ({}) => (
     <div className="navigation section no-padding bg-dark">
         <div className="navigation-inner section-inner">
             <ul className="blog-menu">
-                <li className="page_item"><a href="/">Item One</a></li>
-                <li className="page_item"><a href="/">Item Two</a></li>
-                <li className="page_item"><a href="/">Item Three</a></li>
-                <li className="page_item"><a href="/">Item Four</a></li>
+            <StaticQuery
+                    query={graphql`
+                    query {
+                        allMarkdownRemark(limit: 10, sort: { order: ASC, fields: [frontmatter___order] }, filter: { frontmatter: { layout: {eq: "page" } } }) {
+                            edges {
+                              node {
+                                frontmatter {
+                                    id
+                                    title
+                                    layout
+                                    permalink
+                                }
+                              }
+                            }
+                          }
+                        }`}
+                    render={data => {
+                        const menuItems = data.allMarkdownRemark.edges;
+                        return menuItems.map(menuItem => {
+                            const fm = menuItem.node.frontmatter;
+                            return (<li key={fm.id} className="page_item"><Link to={fm.permalink}>{fm.title}</Link></li>)
+                        })
+                    }}
+                />
             </ul>
             <div className="clear"></div>
         </div>

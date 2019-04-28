@@ -19,8 +19,14 @@ export default function Post ({post}) {
             <span className="post-date">{post.frontmatter.date}</span>
         </div>
     )
+
+    let disqusDisplay = (
+        <DiscussionEmbed {...disqusConfig} />
+    )
+
     if (post.frontmatter.layout === "page") {
         dateDisplay = (<div></div>)
+        disqusDisplay = (<div></div>)
     }
     return (
     <div className="posts">
@@ -31,7 +37,7 @@ export default function Post ({post}) {
             </div>
             <div className="post-content" dangerouslySetInnerHTML={{ __html: post.html }}></div>
             <div className="clear"></div>
-            <DiscussionEmbed {...disqusConfig} />
+            {disqusDisplay}
         </div>
     </div>
     )

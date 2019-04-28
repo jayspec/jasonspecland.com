@@ -27,7 +27,32 @@ module.exports = {
         path: `${__dirname}/src/menuItems`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 650
+            }
+          },
+          {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              username: 'jayspec',
+              includeDefaultCss: true
+            }
+          },
+          {
+            resolve: "@weknow/gatsby-remark-twitter",
+            options: {
+              debug: false
+            }
+          }
+        ]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

@@ -19,7 +19,7 @@ tags:
   - music
   - paula
 ---
-[<img class="alignnone size-medium wp-image-27" title="Paula Performs with the Icky House Club" src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2009/11/paula_concert-199x300.jpg" alt="Paula Performs with the Icky House Club" width="199" height="300" srcset="/wp-content/uploads/2009/11/paula_concert-199x300.jpg 199w, /wp-content/uploads/2009/11/paula_concert.jpg 681w" sizes="(max-width: 199px) 100vw, 199px" />](http://jasonspecland.azurewebsites.net/wp-content/uploads/2009/11/paula_concert.jpg)
+![Paula Performs with the Icky House Club](../images/paula_concert.jpg)
 
 So, last night, as predicted, Paula, Mickey, and Carlos, a.k.a. The Icky House Club, rocked the house at the Duplex. I was on photography duty. Alas, it was something of a tough room for photography, but I think I got a few decent shots.</p> 
 

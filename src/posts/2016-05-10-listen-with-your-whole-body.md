@@ -16,13 +16,8 @@ When coaching improv, I work very hard to get the people I&#8217;m coaching to r
 
 This exercise works because human beings have evolved over the millennia to be deeply and profoundly in tune with the most subtle emotions encoded in the human face. Take this classic example:
 
-<div id="attachment_560" style="width: 610px" class="wp-caption alignnone">
-  <a href="http://jasonspecland.azurewebsites.net/wp-content/uploads/2016/05/magaret-thatcher-illusion.jpg"><img aria-describedby="caption-attachment-560" src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2016/05/magaret-thatcher-illusion.jpg" alt="An Illustration of the &quot;Thatcher Effect&quot;, by psychology professor Peter Thompson, 1980" width="600" height="394" class="size-full wp-image-560" srcset="/wp-content/uploads/2016/05/magaret-thatcher-illusion.jpg 600w, /wp-content/uploads/2016/05/magaret-thatcher-illusion-300x197.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a>
-  
-  <p id="caption-attachment-560" class="wp-caption-text">
-    An Illustration of the &#8220;Thatcher Effect&#8221;, by psychology professor Peter Thompson, 1980
-  </p>
-</div>
+![An Illustration of the Thatcher Effect by psychology professor Peter Thompson in 1980](../images/magaret-thatcher-illusion.jpg)
+_An Illustration of the &#8220;Thatcher Effect&#8221;, by psychology professor Peter Thompson, 1980_
 
 When the image is upside down, nothing looks amiss. It is only when the face is right-side up that our supercharged facial recognition circuits kick in and the image suddenly appears grotesque.
 

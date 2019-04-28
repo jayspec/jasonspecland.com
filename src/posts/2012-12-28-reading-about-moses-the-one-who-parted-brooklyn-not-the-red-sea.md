@@ -28,6 +28,6 @@ I&#8217;m doing research for a project involving the history of transportation i
 
 I&#8217;m a big eBooks fan, but unfortunately, the books I was looking for on this particular topic aren&#8217;t available in electronic form. &nbsp;I received the physical manifestations of these books today, and I instantly realized yet another advantage of eBooks.
 
-<a href="http://jasonspecland.azurewebsites.net/2012/12/28/reading-about-moses-the-one-who-parted-brooklyn-not-the-red-sea/robert_moses_books/" rel="attachment wp-att-483"><img class="alignnone  wp-image-483" alt="Two books about Robert Moses, &quot;The Power Broker&quot; and &quot;Robert Moses and the Modern City: The Transformation of New York.&quot;" src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2012/12/robert_moses_books.jpg" width="746" height="558" srcset="/wp-content/uploads/2012/12/robert_moses_books.jpg 2592w, /wp-content/uploads/2012/12/robert_moses_books-300x224.jpg 300w, /wp-content/uploads/2012/12/robert_moses_books-1024x764.jpg 1024w" sizes="(max-width: 746px) 100vw, 746px" /></a>
+![Two books about Robert Moses, &quot;The Power Broker&quot; and &quot;Robert Moses and the Modern City: The Transformation of New York.&quot;](../images/robert_moses_books.jpg)
 
 Thousand page tomes aren&#8217;t quite so intimidating in electronic form. &nbsp;Yikes!

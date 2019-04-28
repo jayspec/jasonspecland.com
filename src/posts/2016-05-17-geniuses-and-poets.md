@@ -11,13 +11,8 @@ categories:
 ---
 > &#8220;If we treat each other as if we are geniuses, poets and artists, we have a better chance of becoming that on stage.&#8221; &#8212; Del Close
 
-<div id="attachment_598" style="width: 343px" class="wp-caption alignnone">
-  <a href="http://jasonspecland.azurewebsites.net/wp-content/uploads/2016/05/delclose.jpg"><img aria-describedby="caption-attachment-598" src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2016/05/delclose.jpg" alt="Del Close, the Father of All Longform Improvisers" width="333" height="433" class="size-full wp-image-598" srcset="/wp-content/uploads/2016/05/delclose.jpg 333w, /wp-content/uploads/2016/05/delclose-231x300.jpg 231w" sizes="(max-width: 333px) 100vw, 333px" /></a>
-  
-  <p id="caption-attachment-598" class="wp-caption-text">
-    Del Close, the Father of All Longform Improvisers
-  </p>
-</div>
+![Del Close the Father of All Longform Improvisers](../images/delclose.jpg)
+_Del Close, the Father of All Longform Improvisers_
 
 The past week at work has been kind of frustrating. Miscommunication all over the place. Balls being dropped. And all of it seems to end up in my lap for some reason, even though I&#8217;m not the guy in charge. I feel let down by people I trust. I get angry at people.
 

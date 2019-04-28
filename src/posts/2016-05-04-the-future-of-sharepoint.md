@@ -13,13 +13,8 @@ Today, at 12:30 PM my local time, Microsoft is doing a big reveal at an event th
 
 I&#8217;ll be anxiously watching this event today, but before I do, I thought about the things that _I&#8217;d_ like to see in the future of SharePoint.
 
-<div id="attachment_571" style="width: 490px" class="wp-caption alignnone">
-  <a href="https://www.flickr.com/photos/punktoad/4302556980"><img aria-describedby="caption-attachment-571" src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2016/05/crystal-ball.jpg" alt="Crystal Ball on Ice, courtesy of https://www.flickr.com/photos/punktoad/4302556980, (CC BY 2.0)" width="480" height="640" class="size-full wp-image-571" srcset="/wp-content/uploads/2016/05/crystal-ball.jpg 480w, /wp-content/uploads/2016/05/crystal-ball-225x300.jpg 225w" sizes="(max-width: 480px) 100vw, 480px" /></a>
-  
-  <p id="caption-attachment-571" class="wp-caption-text">
-    Crystal Ball on Ice, courtesy of https://www.flickr.com/photos/punktoad/4302556980, (CC BY 2.0)
-  </p>
-</div>
+![Crystal Ball on Ice](../images/crystal-ball.jpg)
+_Crystal Ball on Ice, courtesy of https://www.flickr.com/photos/punktoad/4302556980, (CC BY 2.0)_
 
 Now these are not prognostications. I know an MVP or two, but they&#8217;ve remained faithful to their NDA&#8217;s. This is just what I would _like_ to see happen with SharePoint.
 

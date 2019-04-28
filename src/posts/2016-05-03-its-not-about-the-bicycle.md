@@ -19,13 +19,9 @@ One trap that beginning improvisers tend to get caught up in is the idea that th
 
 There&#8217;s an old improv coaching idiom that I use often: An audience never leaves an improv show saying, &#8220;Yeah, it was funny and all, but they never \*did\* finish putting together that bicycle!&#8221; Sure, come on stage and start building a bicycle, if that&#8217;s what the moment has inspired you to do. But we want to see how these particular characters react to building a bicycle.
 
-<div id="attachment_545" style="width: 650px" class="wp-caption alignnone">
-  <a href="https://www.flickr.com/photos/radlmax/21830232766"><img aria-describedby="caption-attachment-545" src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2016/05/austrian-pennyfarthing.jpg" alt="Courtesy https://www.flickr.com/photos/radlmax/21830232766 (CC BY-ND 2.0)" width="640" height="360" class="size-full wp-image-545" srcset="/wp-content/uploads/2016/05/austrian-pennyfarthing.jpg 640w, /wp-content/uploads/2016/05/austrian-pennyfarthing-300x169.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a>
-  
-  <p id="caption-attachment-545" class="wp-caption-text">
-    Courtesy https://www.flickr.com/photos/radlmax/21830232766 (CC BY-ND 2.0)
-  </p>
-</div>
+![An Austrian board game featuring a broken pennyfarthing bicycle](../images/austrian-pennyfarthing.jpg)
+_Courtesy https://www.flickr.com/photos/radlmax/21830232766 (CC BY-ND 2.0)_
+
 
 Similarly, when you&#8217;re on a consulting gig, if you&#8217;re talking to the real decision makers, they don&#8217;t care about technology. They only care about what the technology does for their business. No CEO ever leaves a post-engagement meeting saying, &#8220;Yeah, we made a million dollars, but we never \*did\* use SharePoint!&#8221;
 

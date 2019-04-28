@@ -29,25 +29,25 @@ So the first thing I did was I built a boatload of LED strands. Why not just buy
 
 I ordered a bunch of colored LEDs and resistors from Mauser. Here&#8217;s some of the first designs, with my calculations of the resistance values for a 12-volt input.
 
-[<img src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2013/02/20130217-142440.jpg" alt="20130217-142440.jpg" class="alignnone size-full" />](http://jasonspecland.azurewebsites.net/wp-content/uploads/2013/02/20130217-142440.jpg)
+![Heart LED setnsils drawn on paper](../images/20130217-142440.jpg)
 
-<a href="http://jasonspecland.azurewebsites.net/2013/02/17/sexy-mad-science-my-led-body-suits-for-yes-yes-yes-and/image/" rel="attachment wp-att-500"><img src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2013/02/image.jpg" alt="image" width="2592" height="1936" class="alignnone size-full wp-image-500" srcset="/wp-content/uploads/2013/02/image.jpg 2592w, /wp-content/uploads/2013/02/image-300x224.jpg 300w, /wp-content/uploads/2013/02/image-1024x764.jpg 1024w" sizes="(max-width: 2592px) 100vw, 2592px" /></a>
+![Heart LED stensils drawn on paper with red markings for LED positions](../images/image.jpg)
 
 Here is the soldering station, just beginning the build of a strand of lights. Again, I spent three solid days doing this.
 
-<a href="http://jasonspecland.azurewebsites.net/2013/02/17/sexy-mad-science-my-led-body-suits-for-yes-yes-yes-and/image-2/" rel="attachment wp-att-502"><img src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2013/02/image1.jpg" alt="image" width="2592" height="1936" class="alignnone size-full wp-image-502" srcset="/wp-content/uploads/2013/02/image1.jpg 2592w, /wp-content/uploads/2013/02/image1-300x224.jpg 300w, /wp-content/uploads/2013/02/image1-1024x764.jpg 1024w" sizes="(max-width: 2592px) 100vw, 2592px" /></a>
+![LEDs being held at a soldering station](../images/image1.jpg)
 
 Here&#8217;s the first successful test of the &#8220;inner&#8221; heart ring.
 
-<a href="http://jasonspecland.azurewebsites.net/2013/02/17/sexy-mad-science-my-led-body-suits-for-yes-yes-yes-and/image-3/" rel="attachment wp-att-503"><img src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2013/02/image2.jpg" alt="image" width="2592" height="1936" class="alignnone size-full wp-image-503" srcset="/wp-content/uploads/2013/02/image2.jpg 2592w, /wp-content/uploads/2013/02/image2-300x224.jpg 300w, /wp-content/uploads/2013/02/image2-1024x764.jpg 1024w" sizes="(max-width: 2592px) 100vw, 2592px" /></a>
+![Test of inner LED ring](../images/image2.jpg)
 
 And this is the outer.
 
-<a href="http://jasonspecland.azurewebsites.net/2013/02/17/sexy-mad-science-my-led-body-suits-for-yes-yes-yes-and/image-4/" rel="attachment wp-att-504"><img src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2013/02/image3.jpg" alt="image" width="2592" height="1936" class="alignnone size-full wp-image-504" srcset="/wp-content/uploads/2013/02/image3.jpg 2592w, /wp-content/uploads/2013/02/image3-300x224.jpg 300w, /wp-content/uploads/2013/02/image3-1024x764.jpg 1024w" sizes="(max-width: 2592px) 100vw, 2592px" /></a>
+![Test of outer LED ring](../images/image3.jpg)
 
 Here is a pile of hand-soldered LED and resistor assemblies, ready to put into a cable that&#8217;s being built.
 
-<a href="http://jasonspecland.azurewebsites.net/2013/02/17/sexy-mad-science-my-led-body-suits-for-yes-yes-yes-and/image-5/" rel="attachment wp-att-505"><img src="http://jasonspecland.azurewebsites.net/wp-content/uploads/2013/02/image4.jpg" alt="Soldering Station with Loose LED Assemblies" width="2592" height="1936" class="alignnone size-full wp-image-505" srcset="/wp-content/uploads/2013/02/image4.jpg 2592w, /wp-content/uploads/2013/02/image4-300x224.jpg 300w, /wp-content/uploads/2013/02/image4-1024x764.jpg 1024w" sizes="(max-width: 2592px) 100vw, 2592px" /></a>
+![Soldering Station with Loose LED Assemblies](../images/image4.jpg)
 
 The heartbeat is controlled by a super-simple controller board. The 12v is routed through a 5v voltage regulator, which feeds the input of an ATtiny 85. (I programmed the ATtiny 85 through my Arduino. Much thanks to [High-Low Tech at the MIT Media Lab](http://hlt.media.mit.edu/?p=1695) for showing me how to do that.) The output pins 0 and 1 go to the base of two transistors, whose collectors are pointed at the 12v supply and whose emitters are pointed at the inner and outer heart rings.
 

@@ -1,7 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import { DiscussionEmbed } from "disqus-react"
 
 export default function Post ({post}) {
+    const disqusConfig = {
+        shortname: 'jasonspecland',
+        config: { identifier: post.frontmatter.permalink }
+    };
     let dateDisplay = (
         <div className="post-meta">
             <span className="post-date">{post.frontmatter.date}</span>
@@ -19,6 +24,7 @@ export default function Post ({post}) {
             </div>
             <div className="post-content" dangerouslySetInnerHTML={{ __html: post.html }}></div>
             <div className="clear"></div>
+            <DiscussionEmbed {...disqusConfig} />
         </div>
     </div>
     )

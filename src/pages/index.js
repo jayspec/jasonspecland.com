@@ -7,7 +7,22 @@ import PostSummaryCollection from "../components/postSummaryCollection"
 import SidebarImage from "../components/sidebarImage"
 import SocialMedia from "../components/socialMedia";
 
+import { reactAI } from "react-appinsights"
+import { ApplicationInsights } from "@microsoft/applicationinsights-web"
+
 const IndexPage = ({data}) => {
+  let appInsights = new ApplicationInsights({
+    config: {
+      instrumentationKey: "3d91209b-2286-44b6-8dd1-5a1fc5dfee7d",
+      extensions: [reactAI],
+      extensionConfig: {
+        [reactAI.extensionId]: { debug: false }
+      }
+    }
+  })
+  appInsights.loadAppInsights();
+  appInsights.trackPageView({name: "Index", uri: "/"});
+
   const posts = data.allMarkdownRemark.edges // data.markdownRemark holds our post data
   return (
   <Layout>

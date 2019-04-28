@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@weknow/gatsby-remark-twitter": "^0.2.1",
+    "braces": "^2.3.1",
     "disqus-react": "^1.0.5",
     "gatsby": "^2.3.27",
     "gatsby-image": "^2.0.39",
@@ -21,6 +22,7 @@
     "gatsby-transformer-sharp": "^2.1.18",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-appinsights": "^3.0.0-rc.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "social-logos": "^2.0.0"

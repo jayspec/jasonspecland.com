@@ -1,12 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
 import { DiscussionEmbed } from "disqus-react"
+import { reactAI } from "react-appinsights"
 
 export default function Post ({post}) {
+    // Create config for Disqus commenting engine
     const disqusConfig = {
         shortname: 'jasonspecland',
         config: { identifier: post.frontmatter.permalink }
-    };
+    }
+
+    // Log this page view into Application Insights
+    let appInsights = reactAI.appInsights;
+    appInsights.trackPageView({name: post.frontmatter.title, uri: post.frontmatter.permalink});
+    
     let dateDisplay = (
         <div className="post-meta">
             <span className="post-date">{post.frontmatter.date}</span>

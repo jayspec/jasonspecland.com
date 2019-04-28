@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
 
 import Header from "./header"
+import Footer from "./footer"
 import Navigation from "./navigation"
 import "./hemmingway.css"
 import "./hemmingway-additional.css"
@@ -36,11 +37,7 @@ const Layout = ({ children }) => (
           <Header siteMetadata={data.site.siteMetadata} />
           <Navigation />
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+          <Footer siteMetadata={data.site.siteMetadata} />
         </div>
       </>
     )}

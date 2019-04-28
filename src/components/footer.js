@@ -9,7 +9,7 @@ const Footer = ({ siteMetadata }) => (
             <div className="clear"></div>
         <div className="credits section bg-dark no-padding">
             <div className="credits-inner section-inner">
-                <p className="credits-left">&copy;{new Date().getFullYear()} <Link to={'/'} />{siteMetadata.title}</p>
+                <p className="credits-left">&copy;{new Date().getFullYear()} <Link to={'/'}>{siteMetadata.title}</Link></p>
                 <p className="credits-right"><span>Theme by <a href="https://www.andersnoren.se">Anders Noren</a>, Built with <a href="https://gatsbyjs.org">Gatsby</a></span></p>
                 <div className="clear"></div>
             </div>

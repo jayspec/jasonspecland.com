@@ -7,41 +7,46 @@ import PostSummaryCollection from "../components/postSummaryCollection"
 import SidebarImage from "../components/sidebarImage"
 import SocialMedia from "../components/socialMedia";
 
-import { reactAI } from "react-appinsights"
-import { ApplicationInsights } from "@microsoft/applicationinsights-web"
+import PageTracker from "../lib/pageTracker"
 
-const IndexPage = ({data}) => {
-  let appInsights = new ApplicationInsights({
-    config: {
-      instrumentationKey: "3d91209b-2286-44b6-8dd1-5a1fc5dfee7d",
-      extensions: [reactAI],
-      extensionConfig: {
-        [reactAI.extensionId]: { debug: false }
-      }
+class IndexPage extends React.Component { 
+  constructor(props) {
+    super(props)
+    this.state = { pageTracker: undefined }
+  }
+
+  componentDidMount() {
+    let pageTracker
+    if (this.state.pageTracker) {
+      pageTracker = this.state.pageTracker
+    } else {
+      pageTracker = new PageTracker()
+      this.setState({ pageTracker: pageTracker })
     }
-  })
-  appInsights.loadAppInsights();
-  appInsights.trackPageView({name: "Index", uri: "/"});
+    pageTracker.trackPageView("Index", "/")
+  }
 
-  const posts = data.allMarkdownRemark.edges // data.markdownRemark holds our post data
-  return (
-  <Layout>
-    <SEO title="Home" keywords={[`azure`, `technology`, `comedy`, `improv`]} />
-    <div className="wrapper section-inner">
-      <div className="content left">
-        <PostSummaryCollection posts={posts} />
-      </div>
-      <i>
+  render() {
+    const posts = this.props.data.allMarkdownRemark.edges // data.markdownRemark holds our post data
+    return (
+    <Layout>
+      <SEO title="Home" keywords={[`azure`, `technology`, `comedy`, `improv`]} />
+      <div className="wrapper section-inner">
+        <div className="content left">
+          <PostSummaryCollection posts={posts} />
+        </div>
         <i>
-          <div className="sidebar right" role="complementary">
-            <SidebarImage />
-            <SocialMedia />
-          </div>
-          <div className="clear"></div>
+          <i>
+            <div className="sidebar right" role="complementary">
+              <SidebarImage />
+              <SocialMedia />
+            </div>
+            <div className="clear"></div>
+          </i>
         </i>
-      </i>
-    </div>
-  </Layout>)
+      </div>
+    </Layout>)
+  }
 }
 
 export default IndexPage

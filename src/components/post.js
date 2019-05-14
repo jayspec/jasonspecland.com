@@ -17,7 +17,7 @@ export default class Post extends React.Component {
           pageTracker = new PageTracker()
           this.setState({ pageTracker: pageTracker })
         }
-        pageTracker.trackPageView("Index", "/")
+        pageTracker.trackPageView(this.props.post.frontmatter.title, this.props.post.frontmatter.permalink)
     }
     
     render() {

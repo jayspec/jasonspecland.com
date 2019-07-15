@@ -12,4 +12,4 @@ Jason Specland is a teacher and performer of improv comedy, a software architect
 
 Jason has performed at Upright Citizens Brigade, ComedySportz, and at the Jekyll and Hyde Club as a mad scientist to scare tourists. He has been on many house teams at the Peoples Improv Theater, where he is currently a teacher.  He has performed with The Austen Family Improv Players and GEORGE/MARTHA: An improvised &#8220;Who&#8217;s Afraid of Virginia Woolf?&#8221; Today, he can be seen performing at The Armory with his house team "Falcon Toss."
 
-When he&#8217;s not making up comedy on the spot, Jason is a Cloud Solution Architect for Microsoft. He has spoken at SharePoint Saturday and the ShareNYC User Group on the topics of SharePoint development, JavaScript, PowerShell, and DevOps.
+When he&#8217;s not making up comedy on the spot, Jason is a Cloud Solution Architect for Microsoft. He has spoken at SharePoint Saturday, the ShareNYC User Group, and the Insider Dev Tour on all kinds of fun technical topics.
